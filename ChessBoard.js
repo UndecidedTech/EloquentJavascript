@@ -2,7 +2,7 @@
 
 function createBoard(width = 8, height = 8) {
   var board = "";
-  for (let row= 0; row< height; i++) {
+  for (let row = 0; row< height; row++) {
     for (let col = 0; col < width; col++) {
         let line = ""
       if (row % 2) {
